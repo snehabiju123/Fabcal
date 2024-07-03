@@ -1,0 +1,57 @@
+
+.container {
+  max-width: 2500px;
+  max-height: max-content;
+  margin: 40px auto;
+  
+  background-color: black;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.navbar
+{height:50px;
+position:relative;
+}
+
+#nav-ul
+{
+  display:flex;
+}
+#nav-ul li{
+  
+  margin-top:-10px;
+  padding:10px;
+}
+
+
+.create-new-btn
+{position:relative;
+
+  left:30px;
+  color:blue;
+  border: 1px solid blue;
+  border-radius:5px; 
+  cursor:pointer;
+}
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mt-4
+{
+  margin-left:30px;
+}
+#book-type-list
+{
+  margin-left: 60px;
+}

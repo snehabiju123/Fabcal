@@ -1,0 +1,140 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Form styles */
+  
+  form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+  
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  #duration
+  {
+    width:15%;
+  }
+  #dur_span
+  {
+    position: relative;
+    left:20px;
+  }
+  #availability
+  {
+    display:flex;
+    font-size:15px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 20px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  /* Weekly availability table styles */
+  
+  .weekly-availability-table {
+    margin-top: 20px;
+  }
+  
+  .weekly-availability-table th {
+    width: 20%;
+  }
+  
+  .weekly-availability-table td {
+    width: 30%;
+  }
+  
+  .weekly-availability-table td input[type="time"] {
+    width: 50%;
+  }
+  
+  /* Button styles */
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Error message styles */
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .submit
+  {
+    position: relative;
+    bottom:-15px;
+    left:180px;
+  }
+  #date
+  {
+    width:30%;
+  }
+  #start_time,#end_time
+  {position:relative;
+    left:15px;
+    width:20%;
+    padding:9px;
+  }
+  #remove,#add_new_date{
+    text-decoration: none;
+    font-size:16px;
+  }
+  #duplicate,#remove
+  {text-decoration:none;
+    position: relative;
+    left:23px;
+  }

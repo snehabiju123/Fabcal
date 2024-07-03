@@ -1,0 +1,132 @@
+.container{
+    max-width: 3000px;
+    background-image:url("cal_body.png") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.book-container
+{
+  background-color:#fff;
+}
+.logo{
+   font-size: 30px;
+   color:gold;
+   font-family: Verdana;
+   margin-top:20px;
+   margin-left: 70px;
+}
+.admin-login-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 40px;
+    font-family: Tahoma;
+    background-color:rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #login_h1
+  {
+    color:white;
+    margin-left:80px;
+  }
+  .admin-login-container h1 {
+    margin-top: 0;
+  }
+  
+  .admin-login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .admin-login-container label {
+    margin-bottom: 10px;
+  }
+  
+  .admin-login-container input[type="text"],.admin-login-container input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 2px;
+    border: 1px solid #ccc;
+  }
+  
+  .admin-login-container button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: gold;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .admin-login-container button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .admin-login-container button[type="button"] {
+    width: 100%;
+    height: 40px;
+    background-color: #ccc;
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .admin-login-container button[type="button"]:hover {
+    background-color: #bbb;
+  }
+  
+  .calendar-container {
+    width: 800px;
+    padding:30px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.1);
+    margin-top:200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-container h1 {
+    margin-top: 0;
+  }
+  
+  .calendar-controls {
+    display: flex;
+    color:white;
+    font-family: Lucida Sans;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-controls label {
+    margin-bottom: 10px;
+  }
+  
+  .calendar-controls input[type="date"] {
+    width: 150px;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .calendar-controls select {
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .calendar-data {
+    margin-top: 20px;
+  }
+  
+  

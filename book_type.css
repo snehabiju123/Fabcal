@@ -1,0 +1,135 @@
+.container {
+    max-width: 350px;
+    margin: 40px auto;
+    padding: 2px;
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-text 
+{
+  font-size:5px;
+}
+
+#book
+{
+  border:none;
+}
+#book td{
+    padding:10px;
+}
+
+.copy-link
+{
+    position:relative;
+    left:20px;
+    color:blue;
+}
+.card {
+    margin: 10px;
+    flex: 1;
+    max-width: 300px;
+    
+    padding: 5px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+ .card-desc,.copy-link {
+   font-size:15px;
+   color:blue;
+ }
+  
+  .card-text {
+    font-size: 14px;
+    color:black;
+    margin-bottom: 10px;
+  }
+  🕐
+  .form-check {
+    margin-bottom: 10px;
+  }
+  a{
+    color:grey;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .form-check-input {
+    margin-right: 10px;
+  }
+  
+  .btn {
+    margin-right: 10px;
+  }
+  
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .d-flex > * {
+    margin-right: 10px;
+  }
+  
+  .d-flex > *:last-child {
+    margin-right: 0;
+  }
+
+  .delete-btn
+  {
+    color:red;
+  }
+ 
+  .clone-btn,.edit-btn
+  {
+    color:blue;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
